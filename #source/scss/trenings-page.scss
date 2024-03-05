@@ -1,0 +1,95 @@
+.trenings-wrapper {
+   font-family: 'Lato', sans-serif;
+
+   width: 100%;
+   background-color: #000000bc;
+   &__btn {
+      padding-top: 20px;
+      padding-left: 50px;
+      button {
+         background-color: transparent;
+         color: #fff;
+
+         border-bottom: solid 2px rgba(158, 169, 173, 0);
+
+         width: 150px;
+         height: 35px;
+
+         font-size: 16px;
+         transition-duration: 0.5s;
+      }
+      button:hover {
+         border-bottom: solid 2px rgba(158, 169, 173, 0.725);
+         transition-duration: 0.5s;
+         transform: scale(1.1);
+      }
+   }
+}
+.trenings {
+   margin: 0 auto;
+   max-width: 700px;
+
+   padding-top: 20px;
+   &__type {
+      @media (max-width: 431px) {
+         font-size: 35px;
+      }
+      @media (max-width: 321px) {
+         font-size: 25px;
+      }
+      padding-left: 50px;
+      padding-top: 50px;
+      max-width: 700px;
+      //  text-align: center;
+      font-weight: 500;
+
+      color: #fff;
+      font-size: 40px;
+      li {
+         @media (max-width: 431px) {
+            font-size: 25px;
+            line-height: 30px;
+         }
+         @media (max-width: 321px) {
+            font-size: 20px;
+            line-height: 25px;
+         }
+         font-size: 30px;
+         font-weight: 400;
+      }
+   }
+   &__content {
+      @media (max-width: 600px) {
+         font-size: 25px;
+      }
+      @media (max-width: 431px) {
+         font-size: 20px;
+      }
+      @media (max-width: 321px) {
+         font-size: 15px;
+         line-height: 20px;
+      }
+      padding: 50px 0 50px 50px;
+      margin-right: 10px;
+      color: #fff;
+      font-size: 35px;
+      font-weight: 500;
+      // padding-left: 10px;
+      // text-align: center;
+
+      li {
+         @media (max-width: 600px) {
+            font-size: 20px;
+         }
+         @media (max-width: 321px) {
+            font-size: 15px;
+            line-height: 20px;
+         }
+         padding-top: 30px;
+         padding-left: 20px;
+         font-size: 30px;
+         font-weight: 400;
+         text-align: left;
+      }
+   }
+}

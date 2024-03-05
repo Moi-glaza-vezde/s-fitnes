@@ -1,0 +1,129 @@
+.user-skils {
+   width: 100%;
+   font-family: 'Lato', sans-serif;
+
+   background-color: rgb(240, 240, 240);
+   background-color: #000000bc;
+
+   border: 2px solid rgba(158, 169, 173, 0.295);
+
+   &__btn-box {
+      padding-top: 20px;
+      padding-left: 50px;
+   }
+   &__btn-1 {
+      //
+      background-color: transparent;
+      color: #fff;
+
+      border-bottom: solid 2px rgba(158, 169, 173, 0);
+
+      width: 150px;
+      height: 35px;
+
+      font-size: 16px;
+      transition-duration: 0.5s;
+
+      //background-color: #0c3f80;
+      transition-duration: 0.5s;
+   }
+   &__btn-1:hover {
+      transform: scale(1.1);
+      // background-color: #3377ca;
+      transition-duration: 0.5s;
+      border-bottom: solid 2px rgba(158, 169, 173, 0.725);
+   }
+}
+.skils {
+   &__title {
+      @media (max-width: 463px) {
+         font-size: 30px;
+         line-height: 32px;
+         margin: 0 10px;
+      }
+      @media (max-width: 330px) {
+         font-size: 20px;
+         line-height: 23px;
+         margin: 0 10px;
+         padding-top: 30px;
+      }
+
+      color: #fff;
+
+      padding-top: 50px;
+
+      padding-left: 5px;
+      padding-right: 5px;
+
+      margin: 0 auto;
+
+      font-size: 40px;
+      text-align: center;
+      font-weight: 700;
+      max-width: 700px;
+   }
+
+   &__biography {
+      @media (max-width: 463px) {
+         font-size: 25px;
+         line-height: 30px;
+         margin: 0 10px;
+         padding-top: 30px;
+      }
+      @media (max-width: 330px) {
+         font-size: 18px;
+         line-height: 20px;
+         // margin: 0 10px;
+         padding-top: 20px;
+      }
+      margin: 0 auto;
+      color: #fff;
+
+      font-size: 30px;
+      padding-top: 50px;
+      padding-left: 50px;
+      line-height: 35px;
+      max-width: 700px;
+   }
+   &__biography-text1 {
+      padding-bottom: 20px;
+   }
+   &__biography-text2 {
+      padding-bottom: 20px;
+   }
+   &__biography-text3 {
+      padding-bottom: 20px;
+   }
+   &__philosophy {
+      @media (max-width: 463px) {
+         font-size: 25px;
+         line-height: 30px;
+         margin: 0 10px;
+         padding-top: 30px;
+      }
+      @media (max-width: 330px) {
+         font-size: 18px;
+         line-height: 20px;
+         // margin: 0 10px;
+         padding-top: 20px;
+      }
+      color: #fff;
+
+      margin: 0 auto;
+      padding-top: 50px;
+      padding-left: 50px;
+
+      max-width: 700px;
+
+      font-weight: 600;
+      font-size: 30px;
+      line-height: 35px;
+   }
+   &__philosophy-text {
+      padding: 20px 0;
+      //line-height: 40px;
+      text-align: left;
+      //font-size: 30px;
+      font-weight: 400;
+   }
+}

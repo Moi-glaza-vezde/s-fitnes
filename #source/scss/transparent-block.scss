@@ -1,0 +1,49 @@
+.transparent-block {
+   @media (max-width: 431px) {
+      height: 500px;
+   }
+   height: 600px;
+
+   &__box-title {
+      @media (max-width: 821px) {
+         padding-top: 15%;
+      }
+      padding-top: 10%;
+      padding-left: 8%;
+   }
+   @media (max-width: 568px) {
+      padding-top: 20%;
+   }
+
+   &__title {
+      @media (max-width: 821px) {
+         font-size: 40px;
+         line-height: 45px;
+      }
+      @media (max-width: 568px) {
+         font-size: 30px;
+         line-height: 40px;
+      }
+      padding-bottom: 60px;
+      font-weight: 800;
+      font-size: 50px;
+      line-height: 65px;
+      color: #f7f7f7;
+      // color: #fff;
+   }
+   &__text {
+      padding-top: 20px;
+
+      color: #f7f7f7;
+      font-weight: 500;
+      font-size: 20px;
+      padding-bottom: 5px;
+   }
+   &__string {
+      // margin-top: 20px;
+
+      width: 200px;
+      height: 2px;
+      background-color: #fff;
+   }
+}
